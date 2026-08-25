@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+/*
+ * Paleta minimalista, alto contraste para lectura larga.
+ * El texto bíblico usa una serif elegante, la UI sans.
+ *
+ * Las variables semánticas --color-ink / --color-muted / etc. se redefinen
+ * dentro de @media (prefers-color-scheme: dark) para que TODOS los
+ * componentes que las consumen (text-[var(--color-ink)] etc.) se adapten
+ * automáticamente sin tocar cada componente.
+ */
+
+@theme {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+
+  /* Tema claro (default) */
+  --color-paper: #fafaf7;
+  --color-ink: #1a1a1a;
+  --color-muted: #525252;
+  --color-rule: #e6e3da;
+  --color-accent: #8a6d3b;
+}
+
+:root {
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Tema oscuro: paper casi negro, ink casi blanco, accent vibrante. */
+    --color-paper: #0a0a0a;
+    --color-ink: #fafaf9;
+    --color-muted: #a3a3a3;
+    --color-rule: #2a2a2a;
+    --color-accent: #fbbf24;
+
+    --background: var(--color-paper);
+    --foreground: var(--color-ink);
+    color-scheme: dark;
+  }
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* El texto bíblico vive en .bible-text */
+.bible-text {
+  font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
+  line-height: 1.75;
+}
+
+.bible-text p {
+  margin: 0;
+}
+
+/* Numerito de versículo pegado al texto.
+ * Tamaño y peso subidos para que destaque más en lectura densa. */
+.verse-number {
+  font-family: var(--font-sans);
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--color-accent);
+  vertical-align: super;
+  margin-right: 0.18em;
+  letter-spacing: 0.02em;
+}

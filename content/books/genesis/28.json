@@ -1,0 +1,150 @@
+{
+  "bookId": "genesis",
+  "number": 28,
+  "title": "La partida de Jacob y la visión en Betel",
+  "parts": [
+    {
+      "title": "Isaac envía a Jacob a Padán-aram",
+      "verseRange": [1, 5]
+    },
+    {
+      "title": "El matrimonio de Esaú con la hija de Ismael",
+      "verseRange": [6, 9]
+    },
+    {
+      "title": "La visión de la escalera en Betel",
+      "verseRange": [10, 17]
+    },
+    {
+      "title": "La piedra conmemorativa y el voto de Jacob",
+      "verseRange": [18, 22]
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "Entonces Isaac llamó a Jacob, lo bendijo y le mandó diciendo: «No tomarás mujer de las hijas de Canaán."
+    },
+    {
+      "number": 2,
+      "text": "Levántate, ve a Padán-aram, a casa de Betuel, padre de tu madre, y toma de allí mujer para ti de las hijas de Labán, hermano de tu madre."
+    },
+    {
+      "number": 3,
+      "text": "Y el Dios Todopoderoso[1] te bendiga, te haga fructificar y te multiplique, hasta que llegues a ser multitud de pueblos;"
+    },
+    {
+      "number": 4,
+      "text": "y te dé la bendición de Abraham, a ti y a tu descendencia contigo, para que heredes la tierra de tus peregrinaciones, que Dios dio a Abraham»."
+    },
+    {
+      "number": 5,
+      "text": "Así envió Isaac a Jacob, y este fue a Padán-aram, a Labán hijo de Betuel el arameo, hermano de Rebeca, madre de Jacob y de Esaú."
+    },
+    {
+      "number": 6,
+      "text": "Y vio Esaú que Isaac había bendecido a Jacob y lo había enviado a Padán-aram para tomar para sí mujer de allí; y que al bendecirlo, le había mandado diciendo: «No tomarás mujer de las hijas de Canaán»;"
+    },
+    {
+      "number": 7,
+      "text": "y que Jacob había obedecido a su padre y a su madre, y se había ido a Padán-aram."
+    },
+    {
+      "number": 8,
+      "text": "Vio pues Esaú que las hijas de Canaán no agradaban a Isaac su padre;"
+    },
+    {
+      "number": 9,
+      "text": "y fue Esaú a Ismael, y tomó por mujer a Majalat, hija de Ismael hijo de Abraham, hermana de Nebaiot, además de sus otras mujeres."
+    },
+    {
+      "number": 10,
+      "text": "Salió, pues, Jacob de Beerseba y fue hacia Harán."
+    },
+    {
+      "number": 11,
+      "text": "Y llegó a un lugar determinado y pasó allí la noche, porque el sol ya se había puesto; tomó una de las piedras de aquel lugar, la puso por cabecera y se acostó en aquel lugar."
+    },
+    {
+      "number": 12,
+      "text": "Y soñó: y he aquí una escalera[2] que estaba apoyada en la tierra, y su cabeza tocaba el cielo; y he aquí ángeles de Dios que subían y bajaban por ella."
+    },
+    {
+      "number": 13,
+      "text": "Y he aquí, YHWH estaba de pie sobre ella[3] y dijo: «Yo soy YHWH, el Dios de Abraham tu padre y el Dios de Isaac; la tierra en la que estás acostado te la daré a ti y a tu descendencia."
+    },
+    {
+      "number": 14,
+      "text": "Y será tu descendencia como el polvo de la tierra, y te extenderás al occidente, al oriente, al norte y al sur; y todas las familias de la tierra serán bendecidas en ti y en tu simiente."
+    },
+    {
+      "number": 15,
+      "text": "He aquí, yo estoy contigo, y te guardaré por dondequiera que fueres, y te volveré a traer a esta tierra; porque no te dejaré hasta que haya hecho lo que te he dicho»."
+    },
+    {
+      "number": 16,
+      "text": "Despertó Jacob de su sueño y dijo: «Ciertamente YHWH está en este lugar, y yo no lo sabía»."
+    },
+    {
+      "number": 17,
+      "text": "Y tuvo miedo, y dijo: «¡Cuán terrible es este lugar! No es otra cosa que casa de Dios[4] y puerta del cielo»."
+    },
+    {
+      "number": 18,
+      "text": "Y se levantó Jacob de mañana, tomó la piedra que había puesto por cabecera, la levantó por señal[5] y derramó aceite sobre su cabeza."
+    },
+    {
+      "number": 19,
+      "text": "Y llamó el nombre de aquel lugar Betel, aunque Luz era el nombre de la ciudad primeramente."
+    },
+    {
+      "number": 20,
+      "text": "E hizo Jacob voto, diciendo: «Si fuere Dios conmigo, y me guardare en este viaje en que voy, y me diere pan para comer y vestido para vestir,"
+    },
+    {
+      "number": 21,
+      "text": "y si volviere en paz a casa de mi padre, YHWH será mi Dios."
+    },
+    {
+      "number": 22,
+      "text": "Y esta piedra que he puesto por señal será casa de Dios; y de todo lo que me dieres, el diezmo apartaré para ti»."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "verse": 3,
+      "title": "«El Dios Todopoderoso»",
+      "transcription": "אֵל שַׁדַּי — 'El Shaddai",
+      "content": "Título divino característico del periodo patriarcal en las fuentes bíblicas. Su etimología exacta es objeto de debate académico (relacionada con shad/shadday, \"montaña\" en acadio shadû, o \"suficiencia/poder\")."
+    },
+    {
+      "id": 2,
+      "verse": 12,
+      "title": "«Escalera»",
+      "transcription": "סֻלָּם — Sullam",
+      "content": "Término único (hapax legomenon) en la Biblia hebrea. Más que una escalera de mano tradicional, la arquitectura visual evoca una escalinata monumental o rampa escalonada, semejante a la estructura de un zigurat mesopotámico (ziggurat)."
+    },
+    {
+      "id": 3,
+      "verse": 13,
+      "title": "«Sobre ella»",
+      "transcription": "עָלָיו — 'Alayw",
+      "content": "La preposición puede traducirse como \"junto a él\" (al lado de Jacob) o \"sobre ella\" (en la cima de la escalinata)."
+    },
+    {
+      "id": 4,
+      "verse": 17,
+      "title": "«Casa de Dios»",
+      "transcription": "בֵּית אֱלֹהִים — Bet Elohim",
+      "content": "Concepto del espacio sagrado como morada terrenal de la divinidad o punto de intersección entre el ámbito divino y el humano."
+    },
+    {
+      "id": 5,
+      "verse": 18,
+      "title": "«Señal»",
+      "transcription": "מַצֵּבָה — Matstsevah",
+      "content": "Estela de piedra levantada con fines de culto o memoria. En textos posteriores del Pentateuco (ej. Deuteronomio) las matstsevot son prohibidas por su asociación con el culto cananeo, pero en la narrativa patriarcal primitiva representan prácticas religiosas estándar."
+    }
+  ]
+}

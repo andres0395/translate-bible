@@ -1,0 +1,227 @@
+{
+  "bookId": "genesis",
+  "number": 26,
+  "title": "Isaac en Gerar y el pacto con Abimelec",
+  "parts": [
+    {
+      "title": "La hambruna y la promesa a Isaac",
+      "verseRange": [1, 6]
+    },
+    {
+      "title": "Isaac y Rebeca ante Abimelec",
+      "verseRange": [7, 11]
+    },
+    {
+      "title": "La prosperidad de Isaac y los pozos en conflicto",
+      "verseRange": [12, 22]
+    },
+    {
+      "title": "El pacto entre Isaac y Abimelec",
+      "verseRange": [23, 33]
+    },
+    {
+      "title": "Las mujeres hititas de Esaú",
+      "verseRange": [34, 35]
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "Hubo hambre en la tierra, además del primer hambre que hubo en los días de Abraham; e Isaac fue a Abimelec, rey de los filisteos[1], en Gerar."
+    },
+    {
+      "number": 2,
+      "text": "Y se le apareció YHWH y le dijo: «No desciendas a Egipto; habita en la tierra que yo te diré."
+    },
+    {
+      "number": 3,
+      "text": "Reside como forastero en esta tierra, y yo estaré contigo y te bendeciré; porque a ti y a tu descendencia daré todas estas tierras, y confirmaré el juramento que juré a Abraham tu padre."
+    },
+    {
+      "number": 4,
+      "text": "Multiplicaré tu descendencia como las estrellas del cielo, y daré a tu descendencia todas estas tierras; y todas las naciones de la tierra serán bendecidas en tu simiente,"
+    },
+    {
+      "number": 5,
+      "text": "por cuanto Abraham oyó mi voz, y guardó mi observancia, mis mandamientos, mis estatutos y mis leyes»."
+    },
+    {
+      "number": 6,
+      "text": "Habitó, pues, Isaac en Gerar."
+    },
+    {
+      "number": 7,
+      "text": "Y los hombres de aquel lugar le preguntaron acerca de su mujer; y él dijo: «Es mi hermana»; porque tuvo miedo de decir: «Es mi mujer», pensando: «No sea que los hombres del lugar me maten por causa de Rebeca», porque ella era de hermoso aspecto."
+    },
+    {
+      "number": 8,
+      "text": "Y sucedió que, habiendo estado allí muchos días, Abimelec, rey de los filisteos, mirando por una ventana, vio, y he aquí a Isaac que acariciaba[2] a Rebeca su mujer."
+    },
+    {
+      "number": 9,
+      "text": "Llamó Abimelec a Isaac y le dijo: «He aquí, ciertamente ella es tu mujer. ¿Cómo, pues, dijiste: \"Es mi hermana\"?». Isaac le respondió: «Porque me dije: \"No sea que muera por causa de ella\"»."
+    },
+    {
+      "number": 10,
+      "text": "Y Abimelec dijo: «¿Qué es esto que nos has hecho? Fácilmente podría alguno del pueblo haber dormido con tu mujer, y habrías traído sobre nosotros la culpa»."
+    },
+    {
+      "number": 11,
+      "text": "Entonces Abimelec mandó a todo el pueblo diciendo: «El que toque a este hombre o a su mujer, ciertamente morirá»."
+    },
+    {
+      "number": 12,
+      "text": "Y sembró Isaac en aquella tierra, y cosechó aquel año el ciento por uno; y YHWH lo bendijo."
+    },
+    {
+      "number": 13,
+      "text": "Y el hombre se engrandeció, y fue próspero cada vez más, hasta llegar a ser muy poderoso."
+    },
+    {
+      "number": 14,
+      "text": "Tuvo rebaños de ovejas, hatos de vacas y numerosa servidumbre; y los filisteos le tuvieron envidia."
+    },
+    {
+      "number": 15,
+      "text": "Todos los pozos que los siervos de su padre habían cavado en días de Abraham su padre, los filisteos los habían cegado y llenado de tierra."
+    },
+    {
+      "number": 16,
+      "text": "Y dijo Abimelec a Isaac: «Apártate de nosotros, porque eres mucho más poderoso que nosotros»."
+    },
+    {
+      "number": 17,
+      "text": "Isaac se fue de allí, acampó en el valle de Gerar y habitó allí."
+    },
+    {
+      "number": 18,
+      "text": "Y volvió Isaac a cavar los pozos de agua que habían cavado en los días de Abraham su padre, y que los filisteos habían cegado después de la muerte de Abraham; y los llamó por los mismos nombres que su padre los había llamado."
+    },
+    {
+      "number": 19,
+      "text": "Pero cuando los siervos de Isaac cavaron en el valle, hallaron allí un pozo de aguas vivas[3]."
+    },
+    {
+      "number": 20,
+      "text": "Y los pastores de Gerar riñeron con los pastores de Isaac, diciendo: «El agua es nuestra». Por eso llamó el nombre del pozo Esek[4], porque habían contendido con él."
+    },
+    {
+      "number": 21,
+      "text": "Cavaron otro pozo, y también riñeron sobre él; y llamó su nombre Sitna[5]."
+    },
+    {
+      "number": 22,
+      "text": "Y se apartó de allí y cavó otro pozo, y no riñeron sobre él; y llamó su nombre Rehobot[6], y dijo: «Porque ahora YHWH ha hecho espacio para nosotros, y fructificaremos en la tierra»."
+    },
+    {
+      "number": 23,
+      "text": "De allí subió a Beerseba."
+    },
+    {
+      "number": 24,
+      "text": "Y se le apareció YHWH aquella noche y le dijo: «Yo soy el Dios de Abraham tu padre; no temas, porque yo estoy contigo, y te bendeciré y multiplicaré tu descendencia por amor de Abraham mi siervo»."
+    },
+    {
+      "number": 25,
+      "text": "Y edificó allí un altar, e invocó el nombre de YHWH, y plantó allí su tienda; y allí los siervos de Isaac cavaron un pozo."
+    },
+    {
+      "number": 26,
+      "text": "Y Abimelec vino a él desde Gerar, con Ahuzat su amigo y Ficol, el capitán de su ejército."
+    },
+    {
+      "number": 27,
+      "text": "Y les dijo Isaac: «¿Por qué venís a mí, si me habéis aborrecido y me habéis echado de entre vosotros?»."
+    },
+    {
+      "number": 28,
+      "text": "Ellos respondieron: «Hemos visto claramente que YHWH está contigo, y dijimos: \"Haya ahora juramento entre nosotros, entre nosotros y ti, y hagamos alianza contigo,"
+    },
+    {
+      "number": 29,
+      "text": "de que no nos harás mal, así como nosotros no te hemos tocado, y como solo te hemos hecho bien y te enviamos en paz\". Tú eres ahora bendito de YHWH»."
+    },
+    {
+      "number": 30,
+      "text": "Él les hizo un banquete, y comieron y bebieron."
+    },
+    {
+      "number": 31,
+      "text": "Se levantaron de mañana y se hicieron juramento el uno al otro; e Isaac los despidió, y ellos se fueron de su lado en paz."
+    },
+    {
+      "number": 32,
+      "text": "Y sucedió en aquel mismo día que los siervos de Isaac vinieron y le dieron noticias sobre el pozo que habían cavado, y le dijeron: «Hemos hallado agua»."
+    },
+    {
+      "number": 33,
+      "text": "Y lo llamó Seba[7]; por eso el nombre de la ciudad es Beerseba hasta hoy."
+    },
+    {
+      "number": 34,
+      "text": "Cuando Esaú tenía cuarenta años, tomó por mujer a Judit, hija de Beeri el hitita, y a Basemat, hija de Elón el hitita;"
+    },
+    {
+      "number": 35,
+      "text": "y ellas fueron amargura de espíritu[8] para Isaac y para Rebeca."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "verse": 1,
+      "title": "«Filisteos»",
+      "transcription": "פְּלִשְׁתִּים — Pelishtim",
+      "content": "Se trata de un anacronismo histórico/geográfico empleado por el autor bíblico. Los filisteos históricos (pueblos del mar) se asentaron masivamente en la costa cananea hacia el siglo XII a.C., mientras que el periodo patriarcal se sitúa en el Bronce Medio. El término designa aquí a los pobladores de la región costera del sudoeste de Canaán."
+    },
+    {
+      "id": 2,
+      "verse": 8,
+      "title": "«Acariciaba»",
+      "transcription": "מְצַחֵק — Metsacheq",
+      "content": "Verbo en forma Piel de la raíz tsachaq (reír/jugar). Es el mismo juego fonético con el nombre de Isaac (Yitschaq). Describe un gesto de afecto o conyugal íntimo que reveló inmediatamente que no eran simplemente hermanos."
+    },
+    {
+      "id": 3,
+      "verse": 19,
+      "title": "«Aguas vivas»",
+      "transcription": "מַיִם חַיִּים — Mayim chayyim",
+      "content": "Expresión idiomática hebrea para referirse al agua subterránea manantial o corriente en oposición al agua estancada de cisterna."
+    },
+    {
+      "id": 4,
+      "verse": 20,
+      "title": "«Esek»",
+      "transcription": "עֵשֶׂק — Esek",
+      "content": "Nombre propio derivado de la raíz 'asaq (contender/disputar)."
+    },
+    {
+      "id": 5,
+      "verse": 21,
+      "title": "«Sitna»",
+      "transcription": "שִׂטְנָה — Sitna",
+      "content": "Nombre derivado de la raíz satan (acusar, enemistar, oponerse)."
+    },
+    {
+      "id": 6,
+      "verse": 22,
+      "title": "«Rehobot»",
+      "transcription": "רְחֹבוֹת — Rehobot",
+      "content": "Nombre propio femenino plural derivado de la raíz rachav (espacioso/amplio)."
+    },
+    {
+      "id": 7,
+      "verse": 33,
+      "title": "«Seba»",
+      "transcription": "שִׁבְעָה — Shiv'ah",
+      "content": "Juego etimológico hebreo doble. La palabra remite tanto a sheva (siete) como al verbo shava (jurar). Por ello, Beer-seba se entiende etimológicamente como \"Pozo del Juramento\" o \"Pozo de los Siete\"."
+    },
+    {
+      "id": 8,
+      "verse": 35,
+      "title": "«Amargura de espíritu»",
+      "transcription": "מֹרַת רוּחַ — Morat ruach",
+      "content": "Expresión idiomática hebrea que denota provocación continua, aflicción o disgusto profundo dentro de la dinámica familiar."
+    }
+  ]
+}

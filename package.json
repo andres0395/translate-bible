@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "validate:chapter": "node scripts/validate-chapter.mjs",
+    "validate:chapter:fix": "node scripts/validate-chapter.mjs --fix"
   },
   "dependencies": {
     "next": "16.3.2",

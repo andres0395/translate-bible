@@ -1,0 +1,280 @@
+{
+  "bookId": "genesis",
+  "number": 30,
+  "title": "Los hijos de Jacob y la prosperidad en Harán",
+  "parts": [
+    {
+      "title": "Los hijos de Bilha y Zilpa",
+      "verseRange": [1, 13]
+    },
+    {
+      "title": "Las mandrágoras y el nacimiento de Isacar, Zabulón y Dina",
+      "verseRange": [14, 21]
+    },
+    {
+      "title": "El nacimiento de José",
+      "verseRange": [22, 24]
+    },
+    {
+      "title": "El nuevo trato entre Jacob y Labán",
+      "verseRange": [25, 36]
+    },
+    {
+      "title": "La estratagema y prosperidad de Jacob",
+      "verseRange": [37, 43]
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "Viendo Raquel que no daba hijos a Jacob, tuvo envidia de su hermana, y decía a Jacob: «Dame hijos, o si no, me muero»."
+    },
+    {
+      "number": 2,
+      "text": "Y Jacob se enojó contra Raquel, y dijo: «¿Estoy yo en lugar de Dios, que te impidió el fruto del vientre?»."
+    },
+    {
+      "number": 3,
+      "text": "Y ella dijo: «He aquí mi sierva Bilha; únete a ella, y dará a luz sobre mis rodillas[1], y yo también tendré hijos de ella»."
+    },
+    {
+      "number": 4,
+      "text": "Así le dio a Bilha su sierva por mujer; y Jacob se unió a ella."
+    },
+    {
+      "number": 5,
+      "text": "Y concibió Bilha, y dio a luz un hijo a Jacob."
+    },
+    {
+      "number": 6,
+      "text": "Dijo entonces Raquel: «Me juzgó[2] Dios, y también oyó mi voz, y me dio un hijo». Por tanto llamó su nombre Dan."
+    },
+    {
+      "number": 7,
+      "text": "Concibió otra vez Bilha la sierva de Raquel, y dio a luz un segundo hijo a Jacob."
+    },
+    {
+      "number": 8,
+      "text": "Y dijo Raquel: «Con luchas de Dios[3] he luchado con mi hermana, y he vencido». Y llamó su nombre Neftalí."
+    },
+    {
+      "number": 9,
+      "text": "Viendo Lea que había cesado de dar a luz, tomó a Zilpa su sierva, y la dio a Jacob por mujer."
+    },
+    {
+      "number": 10,
+      "text": "Y Zilpa la sierva de Lea dio a luz un hijo a Jacob."
+    },
+    {
+      "number": 11,
+      "text": "Y dijo Lea: «¡Qué fortuna!». Y llamó su nombre Gad[4]."
+    },
+    {
+      "number": 12,
+      "text": "Y Zilpa la sierva de Lea dio a luz un segundo hijo a Jacob."
+    },
+    {
+      "number": 13,
+      "text": "Y dijo Lea: «Para dicha mía; porque las mujeres me llamarán dichosa». Y llamó su nombre Aser[5]."
+    },
+    {
+      "number": 14,
+      "text": "Fue Rubén en tiempo de la siega de los trigos, y halló mandrágoras[6] en el campo, y las trajo a Lea su madre; y dijo Raquel a Lea: «Te ruego que me des de las mandrágoras de tu hijo»."
+    },
+    {
+      "number": 15,
+      "text": "Y ella respondió: «¿Es poco que hayas tomado mi marido, para que también te quieras tomar las mandrágoras de mi hijo?». Y dijo Raquel: «Pues dormirá contigo esta noche por las mandrágoras de tu hijo»."
+    },
+    {
+      "number": 16,
+      "text": "Y cuando Jacob volvía del campo a la tarde, salió Lea a su encuentro, y dijo: «A mí has de unirte, porque a la verdad te he alquilado por las mandrágoras de mi hijo». Y durmió con ella aquella noche."
+    },
+    {
+      "number": 17,
+      "text": "Y oyó Dios a Lea; y concibió, y dio a luz el quinto hijo a Jacob."
+    },
+    {
+      "number": 18,
+      "text": "Y dijo Lea: «Dios me ha dado mi recompensa[7], por cuanto di mi sierva a mi marido». Por eso llamó su nombre Isacar."
+    },
+    {
+      "number": 19,
+      "text": "Concibió otra vez Lea, y dio a luz el sexto hijo a Jacob."
+    },
+    {
+      "number": 20,
+      "text": "Y dijo Lea: «Dios me ha dado una buena dote; ahora morará conmigo mi marido, porque le he dado a luz seis hijos». Y llamó su nombre Zabulón[8]."
+    },
+    {
+      "number": 21,
+      "text": "Después dio a luz una hija, y llamó su nombre Dina[9]."
+    },
+    {
+      "number": 22,
+      "text": "Y se acordó Dios de Raquel, y la oyó Dios, y abrió su matriz."
+    },
+    {
+      "number": 23,
+      "text": "Y concibió, y dio a luz un hijo, y dijo: «Ha quitado Dios mi afrenta»;"
+    },
+    {
+      "number": 24,
+      "text": "y llamó su nombre José[10], diciendo: «Añada YHWH otro hijo para mí»."
+    },
+    {
+      "number": 25,
+      "text": "Y aconteció, cuando Raquel hubo dado a luz a José, que Jacob dijo a Labán: «Envíame, para que me vaya a mi lugar y a mi tierra."
+    },
+    {
+      "number": 26,
+      "text": "Dame mis mujeres y mis hijos, por los cuales te he servido, y déjame ir; pues tú sabes los servicios que te he prestado»."
+    },
+    {
+      "number": 27,
+      "text": "Y Labán le respondió: «Halle yo ahora gracia en tus ojos; he experimentado[11] que YHWH me ha bendecido por tu causa»."
+    },
+    {
+      "number": 28,
+      "text": "Y dijo: «Señálame tu salario, y yo te lo daré»."
+    },
+    {
+      "number": 29,
+      "text": "Y él respondió: «Tú sabes cómo te he servido, y cómo ha estado tu ganado conmigo."
+    },
+    {
+      "number": 30,
+      "text": "Porque poco tenías antes de mi llegada, y ha crecido en gran número, y YHWH te ha bendecido con mi llegada; y ahora, ¿cuándo trabajaré yo también por mi propia casa?»."
+    },
+    {
+      "number": 31,
+      "text": "Y él dijo: «¿Qué te daré?». Y respondió Jacob: «No me des nada; si hicieres por mí esto, volveré a apacentar y guardar tus ovejas."
+    },
+    {
+      "number": 32,
+      "text": "Yo pasaré hoy por todo tu rebaño, retirando de allí toda oveja manchada y salpicada de color, y toda oveja oscura entre las ovejas, y las manchadas y salpicadas entre las cabras; y este será mi salario."
+    },
+    {
+      "number": 33,
+      "text": "Así responderá por mí mi justicia mañana, cuando vengas a reconocer mi salario delante de ti: toda la que no fuere salpicada ni manchada entre las cabras, y oscura entre las ovejas, se me tendrá por hurto»."
+    },
+    {
+      "number": 34,
+      "text": "Dijo entonces Labán: «Mira, sea como tú dices»."
+    },
+    {
+      "number": 35,
+      "text": "Y Labán apartó aquel día los machos de las cabras listados y manchados, y todas las cabras salpicadas y manchadas, y todo lo que tenía algo de blanco, y todas las oscuras entre las ovejas, y los puso en manos de sus hijos."
+    },
+    {
+      "number": 36,
+      "text": "Y puso tres días de camino entre sí y Jacob; y Jacob apacentaba las otras ovejas de Labán."
+    },
+    {
+      "number": 37,
+      "text": "Tomó luego Jacob varas verdes de álamo, de avellano y de plátano, y descortezó en ellas rayas blancas, descubriendo la blancura de las varas."
+    },
+    {
+      "number": 38,
+      "text": "Y puso las varas que había descortezado delante del ganado, en los pilones y en los abrevaderos de agua donde venían a beber las ovejas, las cuales se encendían en celo al venir a beber."
+    },
+    {
+      "number": 39,
+      "text": "Y concebían las ovejas delante de las varas, y parían ovejas listadas, pintadas y abigarradas."
+    },
+    {
+      "number": 40,
+      "text": "Y apartaba Jacob los corderos, y ponía los rostros del rebaño hacia lo listado y todo lo oscuro en el rebaño de Labán. Y ponía su propio hato aparte, y no lo ponía con el rebaño de Labán."
+    },
+    {
+      "number": 41,
+      "text": "Y sucedía que cuantas veces se hallaban en celo las ovejas fuertes, Jacob ponía las varas delante de las ovejas en los abrevaderos, para que concibiesen a la vista de las varas."
+    },
+    {
+      "number": 42,
+      "text": "Pero cuando las ovejas eran débiles, no las ponía; así las débiles eran para Labán, y las fuertes para Jacob."
+    },
+    {
+      "number": 43,
+      "text": "Y se enriqueció el hombre muchísimo, y tuvo muchas ovejas, y siervas y siervos, y camellos y asnos."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "verse": 3,
+      "title": "«Sobre mis rodillas»",
+      "transcription": "עַל־בִּרְכַּי — 'Al-birkay",
+      "content": "Fórmula legal e idiomática del Antiguo Cercano Oriente que indica un acto de adopción jurídica inmediata del recién nacido por parte de la señora de la sierva."
+    },
+    {
+      "id": 2,
+      "verse": 6,
+      "title": "«Me juzgó»",
+      "transcription": "דָּנַנִּי — Dananni",
+      "content": "Raíz dan (\"juzgar\", \"hacer justicia\" o \"vindicar\"). Da origen al nombre Dan (דָּן)."
+    },
+    {
+      "id": 3,
+      "verse": 8,
+      "title": "«Luchas de Dios»",
+      "transcription": "נַפְתּוּלֵי אֱלֹהִים — Naftule Elohim",
+      "content": "Expresión superlativa en hebreo (Elohim usado para magnificar un sustantivo). Significa \"luchas gigantescas\" o \"luchas vehementes\". Se vincula con la raíz patal (\"retorcerse\", \"luchar\"), dando origen al nombre Neftalí (נַפְתָּלִי)."
+    },
+    {
+      "id": 4,
+      "verse": 11,
+      "title": "«Gad»",
+      "transcription": "גָּד — Gad",
+      "content": "Relacionado con gad (\"fortuna\" o \"buena suerte\"), así como con tropas o bandas guerreras."
+    },
+    {
+      "id": 5,
+      "verse": 13,
+      "title": "«Aser»",
+      "transcription": "אָשֵׁר — 'Asher",
+      "content": "Derivado de la raíz 'ashar (\"ser feliz\", \"dichoso\" o \"bienaventurado\")."
+    },
+    {
+      "id": 6,
+      "verse": 14,
+      "title": "«Mandrágoras»",
+      "transcription": "דּוּדָאִים — Duda'im",
+      "content": "Planta de la familia de las solanáceas (Mandragora officinarum), asociada popularmente en el mundo antiguo con propiedades afrodisíacas y favorecedoras de la fertilidad."
+    },
+    {
+      "id": 7,
+      "verse": 18,
+      "title": "«Recompensa»",
+      "transcription": "שְׂכָרִי — Sikhri",
+      "content": "Juego de palabras entre sakar (\"salario\" / \"recompensa\") e Isacar (יִשָּׂשכָר - Yissakhar)."
+    },
+    {
+      "id": 8,
+      "verse": 20,
+      "title": "«Zabulón»",
+      "transcription": "זְבֻלוּן — Zevulun",
+      "content": "Relacionado con dos raíces hebreas paralelizadas: zavad (\"donar\", \"regalar una dote\") y zaval (\"habitar\", \"honrar con la residencia\")."
+    },
+    {
+      "id": 9,
+      "verse": 21,
+      "title": "«Dina»",
+      "transcription": "דִּינָה — Dinah",
+      "content": "Forma femenina de la misma raíz que Dan (din: \"juicio\" o \"vindicación\")."
+    },
+    {
+      "id": 10,
+      "verse": 24,
+      "title": "«José»",
+      "transcription": "יוֹסֵף — Yosef",
+      "content": "El texto propone un doble juego etimológico: primero con el verbo 'asaf (\"quitar\", \"recoger\": v. 23) y luego con la raíz yasaf (\"añadir\", \"agregar\": v. 24)."
+    },
+    {
+      "id": 11,
+      "verse": 27,
+      "title": "«He experimentado»",
+      "transcription": "נִחַשְׁתִּי — Nichashti",
+      "content": "Verbo en forma Piel de la raíz nachash, que literalmente significa \"practicar la adivinación\" o \"descubrir por presagios\". Indica que Labán acudió a prácticas adivinatorias para confirmar el origen de su prosperidad."
+    }
+  ]
+}
