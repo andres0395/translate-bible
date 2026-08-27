@@ -1,0 +1,145 @@
+{
+  "bookId": "genesis",
+  "number": 33,
+  "title": "El reencuentro de Jacob y Esaú y el asentamiento en Siquem",
+  "parts": [
+    {
+      "title": "El encuentro entre Jacob y Esaú",
+      "verseRange": [1, 11]
+    },
+    {
+      "title": "El distanciamiento amigable",
+      "verseRange": [12, 16]
+    },
+    {
+      "title": "Asentamiento en Sucot y Siquem",
+      "verseRange": [17, 20]
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "Alzó Jacob sus ojos y miró, y he aquí venía Esaú, y los cuatrocientos hombres con él; entonces repartió él los niños entre Lea, Raquel y las dos siervas."
+    },
+    {
+      "number": 2,
+      "text": "Y puso las siervas y sus niños delante, luego a Lea y sus niños, y a Raquel y a José los últimos."
+    },
+    {
+      "number": 3,
+      "text": "Y él pasó delante de ellos y se inclinó a tierra siete veces[1], hasta que llegó a su hermano."
+    },
+    {
+      "number": 4,
+      "text": "Pero Esaú corrió a su encuentro y lo abrazó, y se echó sobre su cuello, y lo besó; y lloraron[2]."
+    },
+    {
+      "number": 5,
+      "text": "Y alzó sus ojos y vio a las mujeres y a los niños, y dijo: «¿Quiénes son estos contigo?». Y él respondió: «Son los niños que Dios ha dado graciosamente a tu siervo»."
+    },
+    {
+      "number": 6,
+      "text": "Luego vinieron las siervas, ellas y sus niños, y se inclinaron."
+    },
+    {
+      "number": 7,
+      "text": "Vinieron también Lea y sus niños, y se inclinaron; y después llegó José y Raquel, y se inclinaron."
+    },
+    {
+      "number": 8,
+      "text": "Y Esaú dijo: «¿Qué te propones con todo este grupo que he encontrado?». Y él respondió: «Para hallar gracia en los ojos de mi señor»."
+    },
+    {
+      "number": 9,
+      "text": "Y dijo Esaú: «Tengo suficiente, hermano mío; sea para ti lo que es tuyo»."
+    },
+    {
+      "number": 10,
+      "text": "Y dijo Jacob: «No, yo te ruego; si he hallado ahora gracia en tus ojos, acepta mi presente de mi mano, porque he visto tu rostro como quien ve el rostro de Dios[3], y te has complacido en mí."
+    },
+    {
+      "number": 11,
+      "text": "Acepta, te ruego, mi bendición que te ha sido traída, porque Dios me ha favorecido y todo lo que tengo me basta». Y le insistió, y él la tomó."
+    },
+    {
+      "number": 12,
+      "text": "Y Esaú dijo: «En marcha, vámonos; y yo iré delante de ti»."
+    },
+    {
+      "number": 13,
+      "text": "Y Jacob le dijo: «Mi señor sabe que los niños son tiernos, y que tengo ovejas y vacas paridas; si las fatigan un solo día, morirá todo el rebaño."
+    },
+    {
+      "number": 14,
+      "text": "Pase ahora mi señor delante de su siervo, y yo iré poco a poco, al paso del ganado que va delante de mí y al paso de los niños, hasta que llegue a mi señor a Seir»."
+    },
+    {
+      "number": 15,
+      "text": "Y Esaú dijo: «Dejaré ahora contigo algunos de los hombres que están conmigo». Y él dijo: «¿Para qué esto? Halle yo gracia en los ojos de mi señor»."
+    },
+    {
+      "number": 16,
+      "text": "Así volvió Esaú aquel día por su camino a Seir."
+    },
+    {
+      "number": 17,
+      "text": "Y Jacob fue a Sucot[4], y edificó allí casa para sí e hizo cabañas para su ganado; por tanto, llamó el nombre de aquel lugar Sucot."
+    },
+    {
+      "number": 18,
+      "text": "Después Jacob llegó sano y salvo a la ciudad de Siquem, que está en la tierra de Canaán, cuando venía de Padán-aram; y acampó delante de la ciudad."
+    },
+    {
+      "number": 19,
+      "text": "Y compró la parte del campo donde desplegó su tienda, de mano de los hijos de Hamor, padre de Siquem, por cien monedas de plata[5]."
+    },
+    {
+      "number": 20,
+      "text": "Y erigió allí un altar, y lo llamó El-Elohe-Israel[6]."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "verse": 3,
+      "title": "«Se inclinó a tierra siete veces»",
+      "transcription": "וַיִּשְׁתַּחוּ אַרְצָה שֶׁבַע פְּעָמִים — Wayyishtachu 'artsah sheva' pe'amim",
+      "content": "Gesto de vasallaje y respeto diplomático atestiguado en las cartas de Amarna (s. XIV a.C.) para dirigirse a un superior o rey."
+    },
+    {
+      "id": 2,
+      "verse": 4,
+      "title": "«Y lo besó»",
+      "transcription": "וַיִּשָּׁקֵהוּ — Wayyishaqehu",
+      "content": "En el texto masorético (BHS), las letras de esta palabra llevan puntos extraordinarios (puncta extraordinaria) colocados por los masoretas, lo que históricamente generó debate rabínico sobre la sinceridad del beso de Esaú. Sin embargo, en el hebreo narrativo representa un acto genuino de reconciliación."
+    },
+    {
+      "id": 3,
+      "verse": 10,
+      "title": "«Como quien ve el rostro de Dios»",
+      "transcription": "כִּרְאֹת פְּנֵי אֱלֹהִים — Kir'ot pene Elohim",
+      "content": "Conexión directa con la experiencia previa en Peniel (\"Rostro de Dios\", Gn 32:30). Ver la gracia en el rostro de Esaú reconciliado refleja para Jacob la gracia divina experimentada la noche anterior."
+    },
+    {
+      "id": 4,
+      "verse": 17,
+      "title": "«Sucot»",
+      "transcription": "סֻכּוֹת — Sukkot",
+      "content": "Plural de sukkah (\"cabañas\", \"enramadas\" o \"refugios para el ganado\")."
+    },
+    {
+      "id": 5,
+      "verse": 19,
+      "title": "«Monedas de plata»",
+      "transcription": "קְשִׂיטָה — Qesitah",
+      "content": "Unidad monetaria o de peso arcaica y de valor incierto usada en el periodo patriarcal (cf. Josué 24:32 y Job 42:11)."
+    },
+    {
+      "id": 6,
+      "verse": 20,
+      "title": "«El-Elohe-Israel»",
+      "transcription": "אֵל אֱלֹהֵי יִשְׂרָאֵל — 'El 'Elohe Yisra'el",
+      "content": "Significa \"Dios, el Dios de Israel\". Marca la consagración del primer espacio de culto formal de Jacob usando su nuevo nombre pactual."
+    }
+  ]
+}

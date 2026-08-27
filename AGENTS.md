@@ -183,6 +183,16 @@ Por ahora configurados: `genesis` (50 caps), `exodo` (40), `levitico` (27), `num
 - `content/books/genesis/28.json` — 22 vv, 4 partes, 5 notas
 - `content/books/genesis/29.json` — 35 vv, 3 partes, 7 notas
 - `content/books/genesis/30.json` — 43 vv, 5 partes, 11 notas
+- `content/books/genesis/31.json` — 55 vv, 4 partes, 9 notas
+- `content/books/genesis/32.json` — 32 vv, 4 partes, 6 notas
+- `content/books/genesis/33.json` — 20 vv, 3 partes, 6 notas
+- `content/books/genesis/34.json` — 31 vv, 5 partes, 4 notas
+- `content/books/genesis/35.json` — 29 vv, 5 partes, 8 notas
+- `content/books/genesis/36.json` — 43 vv, 5 partes, 8 notas
+- `content/books/genesis/37.json` — 36 vv, 5 partes, 4 notas
+- `content/books/genesis/38.json` — 30 vv, 4 partes, 7 notas
+- `content/books/genesis/39.json` — 23 vv, 3 partes, 3 notas
+- `content/books/genesis/40.json` — 23 vv, 4 partes, 4 notas
 
 ### Rutas
 - `/` — índice de libros (AT/NT)

@@ -1,0 +1,147 @@
+{
+  "bookId": "genesis",
+  "number": 40,
+  "title": "Los sueños del copero y del panadero",
+  "parts": [
+    {
+      "title": "Los oficiales del Faraón en la cárcel",
+      "verseRange": [1, 8]
+    },
+    {
+      "title": "El sueño del copero y su interpretación",
+      "verseRange": [9, 15]
+    },
+    {
+      "title": "El sueño del panadero y su interpretación",
+      "verseRange": [16, 19]
+    },
+    {
+      "title": "Cumplimiento y olvido",
+      "verseRange": [20, 23]
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "Aconteció después de estas cosas, que el copero[1] del rey de Egipto y su panadero delinquieron contra su señor el rey de Egipto."
+    },
+    {
+      "number": 2,
+      "text": "Y se enojó Faraón contra sus dos oficiales, contra el jefe de los coperos y contra el jefe de los panaderos,"
+    },
+    {
+      "number": 3,
+      "text": "y los puso en prisión en la casa del capitán de la guardia, en la cárcel donde José estaba preso."
+    },
+    {
+      "number": 4,
+      "text": "Y el capitán de la guardia encargó de ellos a José, y él les servía; y estuvieron días en la prisión."
+    },
+    {
+      "number": 5,
+      "text": "Y ambos tuvieron un sueño, cada uno su propio sueño en una misma noche, cada uno conforme a la interpretación de su sueño, el copero y el panadero del rey de Egipto, que estaban presos en la cárcel."
+    },
+    {
+      "number": 6,
+      "text": "Vino a ellos José por la mañana, y los miró, y he aquí que estaban tristes."
+    },
+    {
+      "number": 7,
+      "text": "Y él preguntó a aquellos oficiales de Faraón que estaban con él en la prisión de la casa de su señor, diciendo: «¿Por qué están hoy tristes vuestros rostros?»."
+    },
+    {
+      "number": 8,
+      "text": "Ellos le dijeron: «Hemos tenido un sueño, y no hay quien lo interprete». Entonces les dijo José: «¿No son de Dios las interpretaciones? Contádmelo ahora»."
+    },
+    {
+      "number": 9,
+      "text": "Entonces el jefe de los coperos contó su sueño a José, y le dijo: «En mi sueño veía una vid delante de mí,"
+    },
+    {
+      "number": 10,
+      "text": "y en la vid había tres sarmientos; y ella florecía, y salía su brote, y sus racimos de uvas maduraban."
+    },
+    {
+      "number": 11,
+      "text": "Y la copa de Faraón estaba en mi mano, y tomaba yo las uvas y las exprimía en la copa de Faraón, y daba yo la copa en mano de Faraón»."
+    },
+    {
+      "number": 12,
+      "text": "Y le dijo José: «Esta es su interpretación: los tres sarmientos son tres días."
+    },
+    {
+      "number": 13,
+      "text": "Al cabo de tres días levantará Faraón tu cabeza[2], y te restituirá a tu puesto, y darás la copa a Faraón en su mano, como solías hacerlo cuando eras su copero."
+    },
+    {
+      "number": 14,
+      "text": "Acuérdate, pues, de mí cuando te vaya bien, y te ruego que me hagas misericordia, y hagas mención de mí a Faraón, y me saques de esta casa."
+    },
+    {
+      "number": 15,
+      "text": "Porque fui hurtado de la tierra de los hebreos; y tampoco he hecho aquí nada para que me pusiesen en la cárcel»."
+    },
+    {
+      "number": 16,
+      "text": "Viendo el jefe de los panaderos que había interpretado para bien, dijo a José: «También yo soñaba que veía tres canastillos blancos[3] sobre mi cabeza."
+    },
+    {
+      "number": 17,
+      "text": "En el canastillo superior había de toda clase de manjares de pastelería para Faraón; y las aves los comían del canastillo de sobre mi cabeza»."
+    },
+    {
+      "number": 18,
+      "text": "Entonces respondió José y dijo: «Esta es su interpretación: Los tres canastillos tres días son."
+    },
+    {
+      "number": 19,
+      "text": "Al cabo de tres días quitará Faraón tu cabeza de sobre ti[4], y te hará colgar en un madero, y las aves comerán tu carne de sobre ti»."
+    },
+    {
+      "number": 20,
+      "text": "Al tercer día, que era el día del cumpleaños de Faraón, el rey hizo banquete a todos sus sirvientes; y levantó la cabeza del jefe de los coperos y la cabeza del jefe de los panaderos, en medio de sus servidores."
+    },
+    {
+      "number": 21,
+      "text": "E hizo volver a su oficio al jefe de los coperos, y dio este la copa en mano de Faraón;"
+    },
+    {
+      "number": 22,
+      "text": "mas hizo colgar al jefe de los panaderos, como se lo había interpretado José."
+    },
+    {
+      "number": 23,
+      "text": "Y el jefe de los coperos no se acordó de José, sino que le olvidó."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "verse": 1,
+      "title": "«Copero»",
+      "transcription": "מַשְׁקֶה — Mashqeh",
+      "content": "Cargo palaciego de alta confianza en el Antiguo Cercano Oriente y en el Egipto faraónico. No era un mero sirviente, sino un funcionario de alto rango responsable de supervisar las bebidas reales y prevenir envenenamientos."
+    },
+    {
+      "id": 2,
+      "verse": 13,
+      "title": "«Levantará Faraón tu cabeza»",
+      "transcription": "יִשָּׂא פַרְעֹה אֶת־רֹאשֶׁךָ — Yissa Far'oh 'et-rosheja",
+      "content": "Idioma hebreo que significa \"rehabilitar\", \"restablecer la dignidad\" o pasar lista a un oficial para restituirlo en su cargo. El texto juega hábilmente con esta misma frase en el v. 19 con un sentido punitivo."
+    },
+    {
+      "id": 3,
+      "verse": 16,
+      "title": "«Canastillos blancos»",
+      "transcription": "סַלֵּי חֹרִי — Salle jori",
+      "content": "Jori puede traducirse como \"blanco\" (pan de harina refinada) o como \"canastas de mimbre/agujereadas\" (del arameo/hebreo arcaico para hoyos o entramados)."
+    },
+    {
+      "id": 4,
+      "verse": 19,
+      "title": "«Quitará Faraón tu cabeza de sobre ti»",
+      "transcription": "יִשָּׂא פַרְעֹה אֶת־רֹאשְׁךָ מֵעָלֶיךָ — Yissa Far'oh 'et-rosheja me'aleja",
+      "content": "Juego de palabras intencional respecto al v. 13. Mientras al copero se le \"levanta la cabeza\" en señal de exaltación, al panadero se le \"quita la cabeza\" (decapitación o ejecución corporal)."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "bookId": "genesis",
+  "number": 39,
+  "title": "José en la casa de Potifar y en la cárcel",
+  "parts": [
+    {
+      "title": "Prosperidad de José en casa de Potifar",
+      "verseRange": [1, 6]
+    },
+    {
+      "title": "La tentación y la acusación de la esposa de Potifar",
+      "verseRange": [7, 18]
+    },
+    {
+      "title": "José en la prisión",
+      "verseRange": [19, 23]
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "Llevado, pues, José a Egipto, Potifar, oficial de Faraón, capitán de la guardia[1], varón egipcio, lo compró de los ismaelitas que lo habían llevado allá."
+    },
+    {
+      "number": 2,
+      "text": "Mas YHWH estaba con José, y fue varón próspero; y estaba en la casa de su amo el egipcio."
+    },
+    {
+      "number": 3,
+      "text": "Y vio su amo que YHWH estaba con él, y que todo lo que él hacía, YHWH lo hacía prosperar en su mano."
+    },
+    {
+      "number": 4,
+      "text": "Así halló José gracia en sus ojos, y le servía; y él le hizo mayordomo de su casa y entregó en su mano todo lo que tenía."
+    },
+    {
+      "number": 5,
+      "text": "Y aconteció que desde el tiempo que le hizo mayordomo de su casa y de todo lo que tenía, YHWH bendijo la casa del egipcio a causa de José, y la bendición de YHWH estaba sobre todo lo que tenía, así en la casa como en el campo."
+    },
+    {
+      "number": 6,
+      "text": "Y dejó todo lo que tenía en mano de José, y con él no se preocupaba de cosa alguna sino del pan que comía. Y era José de hermoso semblante y bella presencia."
+    },
+    {
+      "number": 7,
+      "text": "Aconteció después de estas cosas, que la mujer de su amo puso sus ojos en José, y dijo: «Duerme conmigo»."
+    },
+    {
+      "number": 8,
+      "text": "Y él no quiso, y dijo a la mujer de su amo: «He aquí que mi amo no sabe conmigo lo que hay en casa, y ha puesto en mi mano todo lo que tiene."
+    },
+    {
+      "number": 9,
+      "text": "No hay otro mayor que yo en esta casa, y ninguna cosa me ha reservado sino a ti, por cuanto tú eres su mujer; ¿cómo, pues, haría yo este grande mal, y pecaría contra Dios?»."
+    },
+    {
+      "number": 10,
+      "text": "Hablando ella a José cada día, y no escuchándola él para acostarse al lado de ella, para estar con ella,"
+    },
+    {
+      "number": 11,
+      "text": "aconteció que entró él un día en la casa para hacer su oficio, y no había nadie de los de casa allí."
+    },
+    {
+      "number": 12,
+      "text": "Y ella lo asió por su ropa, diciendo: «Duerme conmigo». Entonces él dejó su ropa en las manos de ella, y huyó y salió."
+    },
+    {
+      "number": 13,
+      "text": "Cuando vio ella que le había dejado su ropa en sus manos, y había huido fuera,"
+    },
+    {
+      "number": 14,
+      "text": "llamó a los de su casa, y les habló diciendo: «Mirad, nos ha traído un hebreo[2] para que hiciese burla de nosotros. Vino a mí para dormir conmigo, y yo di grandes voces;"
+    },
+    {
+      "number": 15,
+      "text": "y viendo que yo alzaba la voz y gritaba, dejó junto a mí su ropa, y huyó y salió»."
+    },
+    {
+      "number": 16,
+      "text": "Y ella puso junto a sí la ropa de él, hasta que vino su señor a su casa."
+    },
+    {
+      "number": 17,
+      "text": "Entonces le habló ella semejantes palabras, diciendo: «El siervo hebreo que nos trajiste, vino a mí para hacer burla de mí."
+    },
+    {
+      "number": 18,
+      "text": "Y cuando yo alcé mi voz y grité, él dejó su ropa junto a mí y huyó fuera»."
+    },
+    {
+      "number": 19,
+      "text": "Y sucedió que cuando el amo de José oyó las palabras que su mujer le hablara, diciendo: «Aquestas cosas me ha hecho tu siervo», se encendió su ira."
+    },
+    {
+      "number": 20,
+      "text": "Y tomó su amo a José, y lo puso en la cárcel[3], en el lugar donde estaban presos los presos del rey; y estuvo allí en la cárcel."
+    },
+    {
+      "number": 21,
+      "text": "Pero YHWH estaba con José y le extendió su misericordia, y le dio gracia en los ojos del jefe de la cárcel."
+    },
+    {
+      "number": 22,
+      "text": "Y el jefe de la cárcel entregó en mano de José el cuidado de todos los presos que había en aquella prisión; todo lo que hacían allí, él lo hacía."
+    },
+    {
+      "number": 23,
+      "text": "No miraba el jefe de la cárcel cosa alguna de las que estaban en su mano, porque YHWH estaba con José, y lo que él hacía, YHWH lo prosperaba."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "verse": 1,
+      "title": "«Capitán de la guardia»",
+      "transcription": "שַׂר הַטַּבָּחִים — Sar hat-tabbachim",
+      "content": "Título adaptado de la corte egipcia para el jefe de los guardias o ejecutores reales. En la Septuaginta se traduce como archimageiros (\"jefe de la guardia/cocineros\")."
+    },
+    {
+      "id": 2,
+      "verse": 14,
+      "title": "«Hebreo»",
+      "transcription": "עִבְרִי — 'Ivri",
+      "content": "Término gentílico/estratificado utilizado en el texto bíblico frecuentemente por extranjeros para referirse a los israelitas o por los propios israelitas al identificarse ante extranjeros."
+    },
+    {
+      "id": 3,
+      "verse": 20,
+      "title": "«La cárcel»",
+      "transcription": "בֵּית הַסֹּהַר — Bet has-sohar",
+      "content": "Expresión idiolectal única de la historia de José en el Génesis. Sohar es probablemente un préstamo lingüístico o término técnico para designar un recinto penitenciario fortificado o fortaleza real."
+    }
+  ]
+}

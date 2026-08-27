@@ -1,0 +1,203 @@
+{
+  "bookId": "genesis",
+  "number": 37,
+  "title": "José, los sueños y la traición de sus hermanos",
+  "parts": [
+    {
+      "title": "José, la túnica y los sueños",
+      "verseRange": [1, 11]
+    },
+    {
+      "title": "La búsqueda en Siquem y Dotán",
+      "verseRange": [12, 17]
+    },
+    {
+      "title": "La conspiración y el pozo",
+      "verseRange": [18, 24]
+    },
+    {
+      "title": "La venta de José",
+      "verseRange": [25, 30]
+    },
+    {
+      "title": "El engaño a Jacob y la llegada a Egipto",
+      "verseRange": [31, 36]
+    }
+  ],
+  "verses": [
+    {
+      "number": 1,
+      "text": "Habitó Jacob en la tierra donde había morado su padre, en la tierra de Canaán."
+    },
+    {
+      "number": 2,
+      "text": "Esta es la historia de la descendencia (toledot) de Jacob: José, siendo de edad de diecisiete años, apacentaba las ovejas con sus hermanos; y el joven estaba con los hijos de Bilha y con los hijos de Zilpa, mujeres de su padre; e informaba José a su padre la mala fama de ellos."
+    },
+    {
+      "number": 3,
+      "text": "Y amaba Israel a José más que a todos sus hijos, porque lo tenía en su vejez; y le hizo una túnica de colores[1]."
+    },
+    {
+      "number": 4,
+      "text": "Y viendo sus hermanos que su padre lo amaba más que a todos sus hermanos, le aborrecían, y no podían hablarle pacíficamente."
+    },
+    {
+      "number": 5,
+      "text": "Y tuvo José un sueño, y lo contó a sus hermanos; y ellos llegaron a aborrecerle aún más."
+    },
+    {
+      "number": 6,
+      "text": "Y él les dijo: «Oíd ahora este sueño que he tenido:"
+    },
+    {
+      "number": 7,
+      "text": "He aquí que atábamos gavillas en medio del campo, y he aquí que mi gavilla se levantaba y estaba derecha, y que vuestras gavillas estaban alrededor y se inclinaban ante la mía»."
+    },
+    {
+      "number": 8,
+      "text": "Le respondieron sus hermanos: «¿Reinarás tú sobre nosotros, o dominarás sobre nosotros?». Y le aborrecieron aún más a causa de sus sueños y de sus palabras."
+    },
+    {
+      "number": 9,
+      "text": "Soñó aun otro sueño, y lo contó a sus hermanos, diciendo: «He aquí que he tenido otro sueño, y he aquí que el sol y la luna y once estrellas se inclinaban ante mí»."
+    },
+    {
+      "number": 10,
+      "text": "Y lo contó a su padre y a sus hermanos; y su padre le reprendió, y le dijo: «¿Qué sueño es este que soñaste? ¿Acaso vendremos yo y tu madre y tus hermanos a postrarnos en tierra ante ti?»."
+    },
+    {
+      "number": 11,
+      "text": "Y sus hermanos le tenían envidia, mas su padre meditaba en el asunto."
+    },
+    {
+      "number": 12,
+      "text": "Fueron después sus hermanos a apacentar las ovejas de su padre en Siquem."
+    },
+    {
+      "number": 13,
+      "text": "Y dijo Israel a José: «Tus hermanos apacientan las ovejas en Siquem: ven, y te enviaré a ellos». Y él respondió: «Heme aquí»."
+    },
+    {
+      "number": 14,
+      "text": "E Israel le dijo: «Ve ahora, mira si les va bien a tus hermanos y si el ganado está bien, y tráeme la respuesta». Y lo envió desde el valle de Hebrón, y él llegó a Siquem."
+    },
+    {
+      "number": 15,
+      "text": "Y lo halló un hombre, andando él errante por el campo, y le preguntó aquel hombre, diciendo: «¿Qué buscas?»."
+    },
+    {
+      "number": 16,
+      "text": "José respondió: «Busco a mis hermanos; te ruego que me muestres dónde están apacentando»."
+    },
+    {
+      "number": 17,
+      "text": "Aquel hombre respondió: «Ya se han ido de aquí; y yo les oí decir: \"Vamos a Dotán\"». Entonces José fue tras sus hermanos, y los halló en Dotán."
+    },
+    {
+      "number": 18,
+      "text": "Cuando ellos lo vieron de lejos, antes que llegara cerca de ellos, conspiraron contra él para matarle."
+    },
+    {
+      "number": 19,
+      "text": "Y se dijeron el uno al otro: «He aquí viene el soñador."
+    },
+    {
+      "number": 20,
+      "text": "Ahora pues, venid, y matémosle y echémosle en un pozo, y diremos: \"Alguna mala bestia lo devoró\"; y veremos qué será de sus sueños»."
+    },
+    {
+      "number": 21,
+      "text": "Cuando Rubén oyó esto, lo libró de sus manos, y dijo: «No lo matemos»."
+    },
+    {
+      "number": 22,
+      "text": "Y les dijo Rubén: «No derraméis sangre; echadlo en este pozo que está en el desierto, y no pongáis mano en él»; para librarlo así de sus manos, para hacerlo volver a su padre."
+    },
+    {
+      "number": 23,
+      "text": "Sucedió, pues, que cuando José llegó a sus hermanos, ellos despojaron a José de su túnica, la túnica de colores que tenía puesta;"
+    },
+    {
+      "number": 24,
+      "text": "y le tomaron y le echaron en el pozo; pero el pozo estaba vacío, no había en él agua."
+    },
+    {
+      "number": 25,
+      "text": "Y se sentaron a comer pan; y alzando los ojos miraron, y he aquí una compañía de ismaelitas[2] que venía de Galaad, y sus camellos traían aromas, bálsamo y mirra, e iban a llevarlo a Egipto."
+    },
+    {
+      "number": 26,
+      "text": "Entonces Judá dijo a sus hermanos: «¿Qué provecho hay en que matemos a nuestro hermano y encubramos su sangre?"
+    },
+    {
+      "number": 27,
+      "text": "Venid, y vendámosle a los ismaelitas, y no sea nuestra mano contra él; porque él es nuestro hermano, nuestra propia carne». Y sus hermanos convinieron con él."
+    },
+    {
+      "number": 28,
+      "text": "Y cuando pasaban los mercaderes madianitas, sacaron ellos a José del pozo, y le trajeron arriba, y vendieron a José a los ismaelitas[2] por veinte piezas de plata. Y llevaron a José a Egipto."
+    },
+    {
+      "number": 29,
+      "text": "Después Rubén volvió al pozo, y no halló a José dentro; y rasgó sus vestidos."
+    },
+    {
+      "number": 30,
+      "text": "Y volvió a sus hermanos, y dijo: «El joven no parece; y yo, ¿adónde iré yo?»."
+    },
+    {
+      "number": 31,
+      "text": "Entonces tomaron ellos la túnica de José, y degollaron un cabrito del ganado, y tiñeron la túnica con la sangre;"
+    },
+    {
+      "number": 32,
+      "text": "y enviaron la túnica de colores y la trajeron a su padre, y dijeron: «Esto hemos hallado; reconoce ahora si es la túnica de tu hijo o no»."
+    },
+    {
+      "number": 33,
+      "text": "Y él la reconoció, y dijo: «La túnica de mi hijo es; alguna mala bestia lo ha devorado; José ha sido despedazado»."
+    },
+    {
+      "number": 34,
+      "text": "Entonces Jacob rasgó sus vestidos, y puso cilicio sobre sus lomos, y guardó luto por su hijo muchos días."
+    },
+    {
+      "number": 35,
+      "text": "Y se levantaron todos sus hijos y todas sus hijas para consolarlo; mas él no quiso recibir consolación, y dijo: «Porque descenderé enlutado a mi hijo hasta el Seol[3]». Y lo lloró su padre."
+    },
+    {
+      "number": 36,
+      "text": "Y los madianitas lo vendieron en Egipto a Potifar, oficial de Faraón, capitán de la guardia[4]."
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "verse": 3,
+      "title": "«Túnica de colores»",
+      "transcription": "כְּתֹנֶת פַּסִּים — Ketonet passim",
+      "content": "Expresión de difícil traducción precisa. Literalmente puede significar \"túnica de extremidades\" (una prenda larga con mangas que llegaba hasta las muñecas y los tobillos) o una prenda ornamentada con bordados/franjas. La traducción tradicional \"de colores\" proviene de la Septuaginta (chitōn poikilos)."
+    },
+    {
+      "id": 2,
+      "verse": 25,
+      "title": "«Ismaelitas» / «Madianitas»",
+      "transcription": "",
+      "content": "La yuxtaposición de ambos términos en los versículos 25, 28 y 36 ha sido ampliamente analizada por la crítica documental (fuentes J y E). En el plano estilístico y bíblico general, se emplean a menudo como términos intercambiables para designar a las caravanas de comerciantes nómadas del desierto."
+    },
+    {
+      "id": 3,
+      "verse": 35,
+      "title": "«Seol»",
+      "transcription": "שְׁאוֹל — She'ol",
+      "content": "Reconciliación conceptual arcaica del inframundo o morada subterránea de los muertos en el pensamiento hebreo antiguo."
+    },
+    {
+      "id": 4,
+      "verse": 36,
+      "title": "«Capitán de la guardia»",
+      "transcription": "שַׂר הַטַּבָּחִים — Sar hat-tabbachim",
+      "content": "Literalmente \"jefe de los ejecutores\" o \"jefe de la guardia de corps\", título cortesano egipcio adaptado al hebreo."
+    }
+  ]
+}
