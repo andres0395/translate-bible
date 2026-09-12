@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "validate:chapter": "node scripts/validate-chapter.mjs",
-    "validate:chapter:fix": "node scripts/validate-chapter.mjs --fix"
+    "validate:chapter:fix": "node scripts/validate-chapter.mjs --fix",
+    "buildCloudflare": "opennextjs-cloudflare build",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
   "dependencies": {
     "next": "16.3.2",
@@ -25,5 +27,11 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "packageManager": "pnpm@11.22.0"
+  "packageManager": "pnpm@11.22.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
+  }
 }
