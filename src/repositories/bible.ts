@@ -1,14 +1,10 @@
-import { readdir, readFile } from "node:fs/promises";
-import path from "node:path";
-
 import type { Book, Chapter } from "@/types/bible";
-
-import { CONTENT_ROOT, chapterFile } from "@/lib/bible/paths";
+import { BOOK_IDS, CHAPTERS } from "@/generated/bible-content";
 
 /**
  * Contrato del repositorio bíblico.
  *
- * Esta interfaz existe aunque hoy tenga una sola implementación (filesystem)
+ * Esta interfaz existe aunque hoy tenga una sola implementación (in-memory)
  * porque:
  *   1. documenta el contrato que la capa de servicio consume,
  *   2. permite swap a otra fuente (DB, CMS, API) sin tocar servicios ni UI,
@@ -30,8 +26,8 @@ export interface IBibleRepository {
 
 /**
  * Mapea el nombre de carpeta a metadata del libro.
- * Para agregar un libro nuevo: crear la carpeta `content/books/<id>/`
- * y agregar una entrada acá (o moverlo a un `books.json` cuando duela).
+ * Para agregar un libro nuevo: crear la carpeta `content/books/<id>/`,
+ * regenerar el bundle con `pnpm build:content`, y agregar una entrada acá.
  *
  * Decisión consciente: un solo punto de configuración por libro.
  * Si después querés que se autodetecte todo desde la carpeta, lo cambiamos.
@@ -77,74 +73,58 @@ const BOOK_CATALOG: Record<
   },
 };
 
-class FileSystemBibleRepository implements IBibleRepository {
+/**
+ * Implementación in-memory que lee del bundle generado por
+ * `scripts/build-content-bundle.mjs`.
+ *
+ * Funciona en cualquier runtime (Node, Workers, edge) porque no toca
+ * el filesystem: todo está en módulos TS que el bundler inlinea.
+ */
+class InMemoryBibleRepository implements IBibleRepository {
   async listBooks(): Promise<Book[]> {
-    const entries = await readdir(CONTENT_ROOT, { withFileTypes: true });
-    const folders = entries
-      .filter((e) => e.isDirectory())
-      .map((e) => e.name)
-      .sort();
-
-    const books = await Promise.all(
-      folders.map(async (id) => this.findBook(id)),
-    );
-
-    return books
-      .filter((b): b is Book => b !== null)
-      .sort((a, b) => a.order - b.order);
+    const books: Book[] = [];
+    for (const id of BOOK_IDS) {
+      const book = this.buildBook(id);
+      if (book) books.push(book);
+    }
+    return books.sort((a, b) => a.order - b.order);
   }
 
   async findBook(bookId: string): Promise<Book | null> {
-    const meta = BOOK_CATALOG[bookId];
-    if (!meta) return null;
-
-    const dir = path.join(CONTENT_ROOT, bookId);
-    let entries: string[];
-    try {
-      entries = await readdir(dir);
-    } catch {
-      return null;
-    }
-
-    const chapterNumbers = entries
-      .filter((name) => /^\d+\.json$/.test(name))
-      .map((name) => Number.parseInt(name.replace(".json", ""), 10))
-      .filter((n) => Number.isInteger(n) && n > 0)
-      .sort((a, b) => a - b);
-
-    return {
-      id: bookId,
-      ...meta,
-      chapters: chapterNumbers,
-    };
+    return this.buildBook(bookId);
   }
 
   async findChapter(bookId: string, chapter: number): Promise<Chapter | null> {
     if (!Number.isInteger(chapter) || chapter < 1) return null;
-
-    const file = chapterFile(bookId, chapter);
-    let raw: string;
-    try {
-      raw = await readFile(file, "utf-8");
-    } catch {
+    const book = CHAPTERS[bookId];
+    if (!book) return null;
+    const ch = book[chapter];
+    if (!ch) return null;
+    // Validación mínima de forma (defensa en profundidad).
+    if (
+      typeof ch.bookId !== "string" ||
+      typeof ch.number !== "number" ||
+      !Array.isArray(ch.verses)
+    ) {
       return null;
     }
+    return ch;
+  }
 
-    try {
-      const parsed = JSON.parse(raw) as Chapter;
-      // Validación mínima de forma.
-      if (
-        typeof parsed.bookId !== "string" ||
-        typeof parsed.number !== "number" ||
-        !Array.isArray(parsed.verses)
-      ) {
-        return null;
-      }
-      return parsed;
-    } catch {
-      return null;
-    }
+  private buildBook(bookId: string): Book | null {
+    const meta = BOOK_CATALOG[bookId];
+    if (!meta) return null;
+    const chapters = CHAPTERS[bookId];
+    if (!chapters) return null;
+    return {
+      id: bookId,
+      ...meta,
+      chapters: Object.keys(chapters)
+        .map((k) => Number.parseInt(k, 10))
+        .filter((n) => Number.isInteger(n) && n > 0)
+        .sort((a, b) => a - b),
+    };
   }
 }
 
-export const bibleRepository: IBibleRepository = new FileSystemBibleRepository();
+export const bibleRepository: IBibleRepository = new InMemoryBibleRepository();
