@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# contenido sincronizado a public/ en prebuild (generado desde content/)
+/public/content/
+
+# OpenNext Cloudflare build output
+/.open-next/

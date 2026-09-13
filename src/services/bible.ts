@@ -1,14 +1,10 @@
-import { bibleRepository, type IBibleRepository } from "@/repositories/bible";
-
 import type { Book, Chapter } from "@/types/bible";
+import type { IBibleRepository } from "@/repositories/bible";
 
 /** Helper: último capítulo disponible de un libro (asume chapters no vacío). */
 function lastChapter(book: Book): number {
   return book.chapters[book.chapters.length - 1] ?? 0;
 }
-
-/** Símbolo para inyección de dependencias en tests. */
-export const BIBLE_REPOSITORY_TOKEN = Symbol.for("BibleRepository");
 
 /** Vista agrupada de libros por testamento, ordenada canónicamente. */
 export type BooksByTestament = {
@@ -26,10 +22,13 @@ export type ChapterNavigation = {
  * Servicio bíblico. Único lugar donde vive la lógica de navegación,
  * agrupación y "este libro existe o no".
  *
+ * Es stateless: cada llamada recibe el repo concreto, ya sea
+ * FileSystemBibleRepository (Vercel / dev) o AssetsBibleRepository (Workers).
+ *
  * Regla: si mañana agregás caché, búsqueda o tracking de lectura, entra acá,
  * no en el repositorio ni en la UI.
  */
-class BibleService {
+export class BibleService {
   constructor(private readonly repo: IBibleRepository) {}
 
   listBooks(): Promise<Book[]> {
@@ -107,5 +106,3 @@ class BibleService {
     return { bookId: next.id, chapter: next.chapters[0] };
   }
 }
-
-export const bibleService = new BibleService(bibleRepository);

@@ -1,13 +1,15 @@
 import type { Book, Chapter } from "@/types/bible";
-import { BOOK_IDS, CHAPTERS } from "@/generated/bible-content";
+import { BOOK_CATALOG } from "@/lib/bible/catalog";
+import { FileSystemBibleRepository } from "@/repositories/bible-fs";
+import { AssetsBibleRepository } from "@/repositories/bible-assets";
 
 /**
- * Contrato del repositorio bíblico.
+ * Contrato del repositorio biblico.
  *
- * Esta interfaz existe aunque hoy tenga una sola implementación (in-memory)
- * porque:
+ * Hay varias implementaciones (fs, assets) elegidas segun el runtime.
+ * Esta interfaz:
  *   1. documenta el contrato que la capa de servicio consume,
- *   2. permite swap a otra fuente (DB, CMS, API) sin tocar servicios ni UI,
+ *   2. permite swap a otra fuente (DB, CMS, R2) sin tocar servicios ni UI,
  *   3. hace triviales los tests de servicio con un mock in-memory.
  */
 export interface IBibleRepository {
@@ -18,113 +20,57 @@ export interface IBibleRepository {
   findBook(bookId: string): Promise<Book | null>;
 
   /**
-   * Devuelve un capítulo, o `null` si el libro no existe o el capítulo
+   * Devuelve un capitulo, o `null` si el libro no existe o el capitulo
    * no tiene archivo JSON.
    */
   findChapter(bookId: string, chapter: number): Promise<Chapter | null>;
 }
 
+export { BOOK_CATALOG, FileSystemBibleRepository, AssetsBibleRepository };
+export type { Book, Chapter };
+
 /**
- * Mapea el nombre de carpeta a metadata del libro.
- * Para agregar un libro nuevo: crear la carpeta `content/books/<id>/`,
- * regenerar el bundle con `pnpm build:content`, y agregar una entrada acá.
- *
- * Decisión consciente: un solo punto de configuración por libro.
- * Si después querés que se autodetecte todo desde la carpeta, lo cambiamos.
+ * Fetcher del binding ASSETS de Cloudflare Workers.
+ * Provisto por @opennextjs/cloudflare types en runtime.
  */
-const BOOK_CATALOG: Record<
-  string,
-  Pick<Book, "title" | "abbreviation" | "order" | "testament" | "totalChapters">
-> = {
-  genesis: {
-    title: "Génesis",
-    abbreviation: "Gn",
-    order: 1,
-    testament: "old",
-    totalChapters: 50,
-  },
-  exodo: {
-    title: "Éxodo",
-    abbreviation: "Ex",
-    order: 2,
-    testament: "old",
-    totalChapters: 40,
-  },
-  levitico: {
-    title: "Levítico",
-    abbreviation: "Lv",
-    order: 3,
-    testament: "old",
-    totalChapters: 27,
-  },
-  numeros: {
-    title: "Números",
-    abbreviation: "Nm",
-    order: 4,
-    testament: "old",
-    totalChapters: 36,
-  },
-  deuteronomio: {
-    title: "Deuteronomio",
-    abbreviation: "Dt",
-    order: 5,
-    testament: "old",
-    totalChapters: 34,
-  },
+type AssetsFetcher = {
+  fetch(input: string | URL | Request): Promise<Response>;
 };
 
 /**
- * Implementación in-memory que lee del bundle generado por
- * `scripts/build-content-bundle.mjs`.
+ * Runtime context opcional.
  *
- * Funciona en cualquier runtime (Node, Workers, edge) porque no toca
- * el filesystem: todo está en módulos TS que el bundler inlinea.
+ * En Cloudflare Workers (via OpenNext), cada Server Component recibe
+ * el contexto Cloudflare per-request. En Vercel y dev local, este objeto
+ * es undefined y se usa fs.
  */
-class InMemoryBibleRepository implements IBibleRepository {
-  async listBooks(): Promise<Book[]> {
-    const books: Book[] = [];
-    for (const id of BOOK_IDS) {
-      const book = this.buildBook(id);
-      if (book) books.push(book);
-    }
-    return books.sort((a, b) => a.order - b.order);
-  }
+export type BibleRuntime = {
+  assets?: AssetsFetcher;
+};
 
-  async findBook(bookId: string): Promise<Book | null> {
-    return this.buildBook(bookId);
+/**
+ * Fabrica del repo segun runtime.
+ *
+ * - Si el contexto trae `assets` (Workers): AssetsBibleRepository.
+ * - Si no (Vercel / dev local): FileSystemBibleRepository.
+ *
+ * Patron de uso en Server Components:
+ *
+ *   import { getBibleRepository } from "@/repositories/bible";
+ *   import { getCloudflareContext } from "@opennextjs/cloudflare";
+ *
+ *   const ctx = await getCloudflareContext({ async: true });
+ *   const repo = getBibleRepository({ assets: ctx.env?.ASSETS });
+ *   const chapter = await repo.findChapter(bookId, chapter);
+ */
+export function getBibleRepository(
+  runtime?: BibleRuntime,
+): IBibleRepository {
+  if (runtime?.assets) {
+    return new AssetsBibleRepository(
+      runtime.assets,
+      Object.keys(BOOK_CATALOG),
+    );
   }
-
-  async findChapter(bookId: string, chapter: number): Promise<Chapter | null> {
-    if (!Number.isInteger(chapter) || chapter < 1) return null;
-    const book = CHAPTERS[bookId];
-    if (!book) return null;
-    const ch = book[chapter];
-    if (!ch) return null;
-    // Validación mínima de forma (defensa en profundidad).
-    if (
-      typeof ch.bookId !== "string" ||
-      typeof ch.number !== "number" ||
-      !Array.isArray(ch.verses)
-    ) {
-      return null;
-    }
-    return ch;
-  }
-
-  private buildBook(bookId: string): Book | null {
-    const meta = BOOK_CATALOG[bookId];
-    if (!meta) return null;
-    const chapters = CHAPTERS[bookId];
-    if (!chapters) return null;
-    return {
-      id: bookId,
-      ...meta,
-      chapters: Object.keys(chapters)
-        .map((k) => Number.parseInt(k, 10))
-        .filter((n) => Number.isInteger(n) && n > 0)
-        .sort((a, b) => a - b),
-    };
-  }
+  return new FileSystemBibleRepository();
 }
-
-export const bibleRepository: IBibleRepository = new InMemoryBibleRepository();
