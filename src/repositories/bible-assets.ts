@@ -5,21 +5,27 @@ import { publicChapterUrl } from "@/lib/bible/paths";
 import type { IBibleRepository } from "@/repositories/bible";
 
 /**
- * Fetcher viene como tipo global de los bindings de Cloudflare Workers
- * (provisto por @opennextjs/cloudflare types). Si tu editor no lo
- * reconoce, agregá "@cloudflare/workers-types" a devDependencies.
- */
-
-/**
  * Implementacion con el binding ASSETS de OpenNext.
  *
  * Funciona en Cloudflare Workers (donde no hay fs). El binding es un
  * Fetcher que sirve los archivos estaticos de public/.
  *
- * Para descubrir capitulos de un libro intentamos leer 1.json hasta
- * totalChapters y paramos al primer 404. Es O(totalChapters) por libro,
- * aceptable porque el listado se cachea a nivel de Next.js.
+ * Cache en memoria a nivel de modulo (warm isolate): el contenido es
+ * inmutable entre deploys, asi que cachear hasta el siguiente cold start
+ * del isolate es seguro y barato. Esto evita los ~50 subrequests por
+ * request a listBooks una vez que el isolate esta caliente.
  */
+
+const chapterCache = new Map<string, Chapter | null>();
+const bookCache = new Map<string, Book | null>();
+let listCache: Book[] | null = null;
+
+export function clearAssetsBibleCache(): void {
+  chapterCache.clear();
+  bookCache.clear();
+  listCache = null;
+}
+
 export class AssetsBibleRepository implements IBibleRepository {
   constructor(
     private readonly assets: Fetcher,
@@ -27,26 +33,48 @@ export class AssetsBibleRepository implements IBibleRepository {
   ) {}
 
   async listBooks(): Promise<Book[]> {
-    const books = await Promise.all(
-      this.bookIds.map((id) => this.findBook(id)),
-    );
-    return books
+    if (listCache) return listCache;
+
+    const books = await Promise.all(this.bookIds.map((id) => this.findBook(id)));
+    const result = books
       .filter((b): b is Book => b !== null)
       .sort((a, b) => a.order - b.order);
+
+    listCache = result;
+    return result;
   }
 
   async findBook(bookId: string): Promise<Book | null> {
-    const meta = BOOK_CATALOG[bookId];
-    if (!meta) return null;
+    if (bookCache.has(bookId)) return bookCache.get(bookId) ?? null;
 
-    const available: number[] = [];
-    for (let n = 1; n <= meta.totalChapters; n++) {
-      const ch = await this.fetchChapter(bookId, n);
-      if (ch) available.push(n);
+    const meta = BOOK_CATALOG[bookId];
+    if (!meta) {
+      bookCache.set(bookId, null);
+      return null;
     }
 
-    if (available.length === 0) return null;
-    return { id: bookId, ...meta, chapters: available };
+    const available: number[] = [];
+    // Recorremos 1..totalChapters y paramos en el primer hueco grande.
+    // Cap en 3 fallos consecutivos para evitar loops absurdos.
+    let misses = 0;
+    for (let n = 1; n <= meta.totalChapters; n++) {
+      const ch = await this.fetchChapter(bookId, n);
+      if (ch) {
+        available.push(n);
+        misses = 0;
+      } else {
+        misses++;
+        if (misses >= 3) break;
+      }
+    }
+
+    if (available.length === 0) {
+      bookCache.set(bookId, null);
+      return null;
+    }
+    const book: Book = { id: bookId, ...meta, chapters: available };
+    bookCache.set(bookId, book);
+    return book;
   }
 
   async findChapter(
@@ -61,9 +89,15 @@ export class AssetsBibleRepository implements IBibleRepository {
     bookId: string,
     chapter: number,
   ): Promise<Chapter | null> {
+    const key = `${bookId}/${chapter}`;
+    if (chapterCache.has(key)) return chapterCache.get(key) ?? null;
+
     const url = publicChapterUrl(bookId, chapter);
     const res = await this.assets.fetch(url);
-    if (!res.ok) return null;
+    if (!res.ok) {
+      chapterCache.set(key, null);
+      return null;
+    }
 
     try {
       const parsed = (await res.json()) as Chapter;
@@ -72,10 +106,13 @@ export class AssetsBibleRepository implements IBibleRepository {
         typeof parsed.number !== "number" ||
         !Array.isArray(parsed.verses)
       ) {
+        chapterCache.set(key, null);
         return null;
       }
+      chapterCache.set(key, parsed);
       return parsed;
     } catch {
+      chapterCache.set(key, null);
       return null;
     }
   }

@@ -4,7 +4,10 @@ import { BibleLayout } from "@/components/templates/BibleLayout";
 import { ChapterView } from "@/components/organisms/ChapterView";
 import { ChapterNav } from "@/components/organisms/ChapterNavigation";
 import { getBibleRepository } from "@/repositories/bible";
+import { getRuntimeContext } from "@/lib/runtime";
 import { BibleService } from "@/services/bible";
+
+export const dynamic = "force-dynamic";
 
 type Props = {
   params: Promise<{ book: string; chapter: string }>;
@@ -12,7 +15,8 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
   const { book: bookId, chapter } = await params;
-  const service = new BibleService(getBibleRepository());
+  const runtime = await getRuntimeContext();
+  const service = new BibleService(getBibleRepository(runtime));
   const book = await service.getBook(bookId);
   if (!book) return { title: "No encontrado" };
   const n = Number.parseInt(chapter, 10);
@@ -25,7 +29,8 @@ export default async function ChapterPage({ params }: Props) {
   const n = Number.parseInt(chapter, 10);
   const valid = Number.isInteger(n) && n > 0;
 
-  const service = new BibleService(getBibleRepository());
+  const runtime = await getRuntimeContext();
+  const service = new BibleService(getBibleRepository(runtime));
   const [book, chapterData, navigation] = await Promise.all([
     service.getBook(bookId),
     valid ? service.getChapter(bookId, n) : Promise.resolve(null),
